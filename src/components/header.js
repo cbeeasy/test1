@@ -12,6 +12,7 @@ const Header = () => {
       <div>{user.name}</div>
       <div>{user.lastname}</div>
       <div>{user.age}</div>
+      <div>test</div>
     </div>
   )
 }
