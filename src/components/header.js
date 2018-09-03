@@ -3,20 +3,18 @@ import '../css/styles.css'
 
 class Header extends Component {
   state = {
-    active: false
+    keywords: ''
   }
 
   inputChangeHandler = (event) => {
-    const value = event.target.value !== ''
-
     this.setState({
-      active: value
+      keywords: event.target.value
     })
   }
 
   render () {
     return (
-      <header style={{ background: `${this.state.active ? 'red' : 'blue'}` }}>
+      <header>
         <div className='logo'>Logo</div>
         <input type='text' onChange={this.inputChangeHandler} />
       </header>
