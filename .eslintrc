@@ -1,6 +1,7 @@
 {
   "parser": "babel-eslint",
   "extends": ["airbnb", "standard", "standard-react"],
+  "plugins": ["babel", "react", "promise", "flowtype"],
   "env": {
     "browser": true,
     "es6": true
@@ -8,10 +9,8 @@
   "ecmaFeatures": {
     "modules": true
   },
-  "globals": {
-    "DEVMODE": false
-  },
   "rules": {
-    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }]
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "react/destructuring-assignment": [false, { "extensions": [".js", ".jsx"] }]
   }
 }
