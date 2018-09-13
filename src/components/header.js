@@ -2,15 +2,9 @@ import React, { Component } from 'react'
 import '../css/styles.css'
 
 class Header extends Component {
-  state = {
-    keywords: ''
-  }
+  state = {}
 
-  inputChangeHandler = (event) => {
-    this.setState({
-      keywords: event.target.value
-    })
-  }
+  inputChangeHandler = (event) => {}
 
   render () {
     return (
