@@ -22,5 +22,5 @@ header input {
 .news_item {
   padding: 20px;
   box-sizing: border-box;
-  border-bottom: 1px solid grey;
+  border-bottom: 5px solid grey;
 }
