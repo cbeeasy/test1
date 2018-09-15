@@ -14,7 +14,7 @@ class App extends Component {
   }
 
   getKeyword = (event) => {
-    // console.log(event.target.value)
+    console.log(event.target.value)
     const keyword = event.target.value
     this.setState(previousState => ({
       filtered: previousState.news.filter(item => item.title.indexOf(keyword) > -1)

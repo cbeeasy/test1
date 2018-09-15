@@ -27,7 +27,8 @@
     "flowtype/type-id-match": 0,
     "flowtype/union-intersection-spacing": [2, "always"],
     "flowtype/use-flow-type": 1,
-    "flowtype/valid-syntax": 1
+    "flowtype/valid-syntax": 1,
+    "no-console": 0
   },
   "settings": {
     "flowtype": {
